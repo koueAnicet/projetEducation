@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'UI/accueilProjEdu.ui'
+# Form implementation generated from reading ui file '/Users/imac-05/Desktop/projetEducation/UI/accueilProjEdu.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.6
 #
@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1484, 865)
+        MainWindow.resize(1481, 851)
         MainWindow.setStyleSheet("")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setStyleSheet("")
@@ -837,14 +837,4 @@ class Ui_MainWindow(object):
         self.label_23.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-family:\'Merriweather Sans\',\'Arial\',\'Helvetica\',\'sans-serif\'; font-size:12px; font-style:italic; color:#505050; background-color:#ffffff;\">Le Président de la République est le</span></p><p align=\"center\"><span style=\" font-family:\'Merriweather Sans\',\'Arial\',\'Helvetica\',\'sans-serif\'; font-size:12px; font-style:italic; color:#505050; background-color:#ffffff;\">Chef de l’Etat. Il incarne l’unité</span></p><p align=\"center\"><span style=\" font-family:\'Merriweather Sans\',\'Arial\',\'Helvetica\',\'sans-serif\'; font-size:12px; font-style:italic; color:#505050; background-color:#ffffff;\">nationale...</span></p></body></html>"))
         self.pushButton_54.setText(_translate("MainWindow", "Voir"))
         self.bnb.setText(_translate("MainWindow", "oiiio"))
-#import ressource_rc
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())
+import ressource_rc
