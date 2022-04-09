@@ -91,12 +91,14 @@ class Ui_MainWindow(QMainWindow, Ui_MainWindow):
                 ],
                 ["","","","","","","","","","","","","","","",""]
             ]
-        print(listes[3])
+        
         dict_infos={
-            "titre": listes[0],
-            "nom": listes[1] ,
-            "description_mini":listes[2],
-            "description":listes[3]
+            "titre": "PRESIDENCE",
+            "nom": "S.E.M ALASSANE DRAMANE OUATTARA",
+            "description_mini": """Le Président de la République est le
+                                Chef de l’Etat. Il incarne l’unité
+                                nationale...""",
+            "description": ""
         }
 
         command='''CREATE TABLE IF NOT EXISTS user(
@@ -107,7 +109,7 @@ class Ui_MainWindow(QMainWindow, Ui_MainWindow):
         )'''
 
         c.execute(command)
-        command1="INSERT INTO user VALUES(:titre, :nom, :description_mini, :description)"
+        command1="INSERT INTO user VALUES(:titre,:nom, :description_mini, :description)"
 
         c.execute(command1,dict_infos)
         

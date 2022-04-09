@@ -23,9 +23,9 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>-10</y>
-      <width>1481</width>
+      <x>-20</x>
+      <y>-30</y>
+      <width>1491</width>
       <height>841</height>
      </rect>
     </property>
@@ -40,7 +40,7 @@
 background-color:gray;}</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page_1">
      <widget class="QLabel" name="label">
